@@ -1,6 +1,6 @@
 <Page codeFile="~/main-page" xmlns="http://www.nativescript.org/tns.xsd" loaded="onLoaded" navigatedTo="navigatingTo">
      <StackLayout backgroundColor="red">
-            <Label text="Screen Size" class="title"/>
+            <Label text="Screen Size" class="title" style="font-size:120px;"/>
             <Button text="TAP" tap="onTap" />
             <Label text="{{ message }}" class="message" textWrap="true"/>
       </StackLayout>
